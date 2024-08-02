@@ -11,8 +11,12 @@ You can create a new IOC and pick this as a template to help you get started.
 
 ## Naming
 
-If your common IOC is called ioc-common-iocname, and you're creating an IOC for area, then your new IOC should be called ioc-area-iocname.
+If your common IOC repository called ioc-common-iocname, and you're creating an IOC for area, then your new IOC repository should be called ioc-area-iocname on github.
 You can make exceptions to this if you have good reasons to.
+
+When you clone your IOC from github, feel free to put it in any folder you want.
+When we deploy your IOC it will be placed in a directory structure like ioc/area/iocname, but during development this is not needed.
+I recommend cloning your repository as-is unless you have a specific more comfortable way to work on these.
 
 
 ## Cfg files
